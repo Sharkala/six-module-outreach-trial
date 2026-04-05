@@ -325,6 +325,48 @@ I hope this email finds you well. I'm reaching out from
 
 ---
 
+### Step 6️⃣：数据入库
+
+> ⚠️ **重要：没有飞书也能生成数据！**
+> 
+> 我会自动检测飞书配置情况，无论有没有飞书，都会生成数据文件。
+
+**我会告诉你（飞书配置成功）：**
+```
+📊 数据入库中...
+
+发现飞书配置 ✓
+正在创建多维表格...
+
+✅ 创建成功：
+- 线索培育池：[飞书表格链接]
+- 客户档案表：[飞书表格链接]
+
+正在写入客户数据...
+✅ 完成：5 条 A类客户已写入
+```
+
+**我会告诉你（没有飞书配置）：**
+```
+📊 数据入库中...
+
+⚠️ 检测到未配置飞书
+降级方案：生成 CSV + Markdown 文件
+
+✅ 生成完成：
+- 📄 线索培育池：/root/.openclaw/workspace/output/线索培育池_[产品]_[市场]_[时间].csv
+- 📄 线索培育池：/root/.openclaw/workspace/output/线索培育池_[产品]_[市场]_[时间].md
+- 📄 客户档案表：/root/.openclaw/workspace/output/客户档案表_[产品]_[市场]_[时间].csv
+- 📄 客户档案表：/root/.openclaw/workspace/output/客户档案表_[产品]_[市场]_[时间].md
+
+CSV/MD 文件包含：
+- 公司名称、邮箱、电话
+- 评分、等级、跟进状态
+- 下次跟进日期
+```
+
+---
+
 ### Step 7️⃣：设置提醒
 
 **我会告诉你：**
@@ -376,10 +418,15 @@ I hope this email finds you well. I'm reaching out from
 - 每周健康度检查：周一 13:00
 - 下次提醒：2026-04-07 12:30
 
-📁 数据存储
+📁 数据存储（有飞书）：
 - 线索表：[飞书链接]
 - 客户表：[飞书链接]
-- 备份 CSV：/root/.openclaw/workspace/output/
+
+📁 数据存储（无飞书）：
+- 线索培育池 CSV：/root/.openclaw/workspace/output/线索培育池_xxx.csv
+- 线索培育池 MD：/root/.openclaw/workspace/output/线索培育池_xxx.md
+- 客户档案表 CSV：/root/.openclaw/workspace/output/客户档案表_xxx.csv
+- 客户档案表 MD：/root/.openclaw/workspace/output/客户档案表_xxx.md
 
 ═══════════════════════════════════
 
