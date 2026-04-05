@@ -13,7 +13,7 @@
 | API | 用途 | Key |
 |-----|------|-----|
 | **Serper** | 搜索客户 | `9bbea8dfb95f004a352b8ec20d3fff0426ac342f` |
-| **Resend** | 发送邮件 | `re_DPtbKJ2y_HYfJ6ro6rCjqYjZesFRxC7pa` |
+| **Resend** | 发送邮件 | `re_R4D7dEAJ_3sSB32oB99kMt1rWCuxQBXtv` |
 
 ---
 
@@ -124,7 +124,7 @@ export SERPER_API_KEY="9bbea8dfb95f004a352b8ec20d3fff0426ac342f"
 #### 2. Resend API Key
 
 ```bash
-export RESEND_API_KEY="re_DPtbKJ2y_HYfJ6ro6rCjqYjZesFRxC7pa"
+export RESEND_API_KEY="re_R4D7dEAJ_3sSB32oB99kMt1rWCuxQBXtv"
 ```
 
 或添加到配置文件：
@@ -132,7 +132,7 @@ export RESEND_API_KEY="re_DPtbKJ2y_HYfJ6ro6rCjqYjZesFRxC7pa"
 ```json
 {
   "env": {
-    "RESEND_API_KEY": "re_DPtbKJ2y_HYfJ6ro6rCjqYjZesFRxC7pa"
+    "RESEND_API_KEY": "re_R4D7dEAJ_3sSB32oB99kMt1rWCuxQBXtv"
   }
 }
 ```
