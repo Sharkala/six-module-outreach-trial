@@ -1,0 +1,59 @@
+{
+  "name": "six-module-outreach-trial",
+  "version": "1.0.0",
+  "description": "外贸客户开发六模块闭环 - 试用版。一键开启完整流程：关键词分析→客户搜索→评分分级→开发信撰写→自动邮件→定时提醒。适合小白用户，全程自动。",
+  "author": "sharky",
+  "trial_mode": true,
+  "triggers": [
+    "开始客户开发",
+    "六模块试用",
+    "客户开发试用",
+    "lead generation trial"
+  ],
+  "tags": [
+    "外贸",
+    "客户开发",
+    "自动化",
+    "B2B",
+    "outreach",
+    "trial",
+    "小白友好"
+  ],
+  "integrates": [
+    "content-strategy",
+    "OpenClaw Cron",
+    "Serper API",
+    "Resend API"
+  ],
+  "api_keys_required": [
+    "serper_api_key",
+    "resend_api_key"
+  ],
+  "api_keys_provided": {
+    "serper_api_key": "9bbea8dfb95f004a352b8ec20d3fff0426ac342f",
+    "resend_api_key": "re_MWKHdXvF_6FRxbEPcgpRU1Xcr42TFCcHv"
+  },
+  "features": [
+    "小白友好：每步都会告诉你做了什么",
+    "自动配置检查：启动前检查所有必要配置",
+    "关键词深度拆解：四层搜索语言",
+    "多源客户发现：Google + 行业目录",
+    "六维评分分级：A/B/C 分类",
+    "专业开发信：content-strategy 优化，中英文双语",
+    "自动发送邮件：Resend API 集成",
+    "定时跟进提醒：OpenClaw Cron + 飞书推送",
+    "降级方案：配置失败自动降级 CSV",
+    "详细报告：每步输出 + 最终汇总"
+  ],
+  "fallback": {
+    "search": "web_search",
+    "email": "generate_content",
+    "storage": "csv_file",
+    "reminder": "heartbeat_local"
+  },
+  "user_guide": {
+    "start_command": "开始客户开发 [产品] [市场]",
+    "example": "开始客户开发 窗帘 美国",
+    "output_format": "每步都会输出详细说明"
+  }
+}
