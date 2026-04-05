@@ -296,6 +296,12 @@ I hope this email finds you well. I'm reaching out from
 
 ### Step 6️⃣：发送邮件
 
+> ⚠️ **重要：使用 Resend API 时会直接发送邮件，无需人工确认**
+> 
+> 系统会自动发送测试邮件验证 API 是否正常工作，然后批量发送开发信。
+> 
+> 如果你需要先预览邮件内容再发送，请在触发时添加参数：`模式：预览`
+
 **我会告诉你：**
 ```
 📧 开始发送邮件...
@@ -303,8 +309,12 @@ I hope this email finds you well. I'm reaching out from
 发送配置：
 - 发件人: your-email@company.com
 - 邮件服务: Resend API
-- 发送模式: 批量发送
+- 发送模式: 批量发送（自动发送，无需确认）
 
+第一步：发送测试邮件验证 API...
+✅ 测试邮件发送成功
+
+第二步：批量发送开发信...
 发送进度：
 [1/5] Heritage Lace → ✓ 发送成功
 [2/5] VCNY Home → ✓ 发送成功
