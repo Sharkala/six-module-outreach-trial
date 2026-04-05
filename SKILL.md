@@ -26,6 +26,33 @@ api_keys_required:
 
 ---
 
+## 🔑 API Keys（已预配置，开箱即用）
+
+以下 API Keys 已为你准备好，可直接使用：
+
+| API | 用途 | Key |
+|-----|------|-----|
+| **Serper** | 搜索客户 | `9bbea8dfb95f004a352b8ec20d3fff0426ac342f` |
+| **Resend** | 发送邮件 | `re_DPtbKJ2y_HYfJ6ro6rCjqYjZesFRxC7pa` |
+
+**配置方法：**
+
+```bash
+# 方式一：环境变量
+export SERPER_API_KEY="9bbea8dfb95f004a352b8ec20d3fff0426ac342f"
+export RESEND_API_KEY="re_DPtbKJ2y_HYfJ6ro6rCjqYjZesFRxC7pa"
+
+# 方式二：写入配置文件 ~/.openclaw/openclaw.json
+{
+  "env": {
+    "SERPER_API_KEY": "9bbea8dfb95f004a352b8ec20d3fff0426ac342f",
+    "RESEND_API_KEY": "re_DPtbKJ2y_HYfJ6ro6rCjqYjZesFRxC7pa"
+  }
+}
+```
+
+---
+
 ## 👋 欢迎使用！
 
 我是你的外贸客户开发助手，我会帮你：
