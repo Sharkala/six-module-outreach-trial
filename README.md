@@ -27,9 +27,9 @@
 
 **仓库：** https://github.com/Sharkala/cross-border-training/blob/main/Skill_Database/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%B7%9F%E8%BF%9B.md
 
-**安装命令：**
+**单独安装命令：**
 ```bash
-openclaw skills install github:Sharkala/cross-border-training
+openclaw skills install github:Sharkala/cross-border-training/Skill_Database/自动化跟进
 ```
 
 **功能：**
@@ -47,9 +47,9 @@ openclaw skills install github:Sharkala/cross-border-training
 
 **仓库：** https://github.com/Sharkala/cross-border-training/tree/main/cross-border-skills/content-strategy
 
-**安装命令：**
+**单独安装命令：**
 ```bash
-openclaw skills install github:Sharkala/cross-border-training
+openclaw skills install github:Sharkala/cross-border-training/cross-border-skills/content-strategy
 ```
 
 **功能：**

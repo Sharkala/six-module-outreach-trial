@@ -45,10 +45,10 @@ api_keys_required:
 
 ### 📦 必需技能
 
-| 技能 | 用途 | 安装命令 |
+| 技能 | 用途 | 单独安装命令 |
 |------|------|----------|
-| **自动化跟进** | 定时跟进提醒节奏 | `openclaw skills install github:Sharkala/cross-border-training` |
-| **content-strategy** | 开发信撰写优化 | `openclaw skills install github:Sharkala/cross-border-training` |
+| **自动化跟进** | 定时跟进提醒节奏 | `openclaw skills install github:Sharkala/cross-border-training/Skill_Database/自动化跟进` |
+| **content-strategy** | 开发信撰写优化 | `openclaw skills install github:Sharkala/cross-border-training/cross-border-skills/content-strategy` |
 
 ### 🔗 仓库地址
 
