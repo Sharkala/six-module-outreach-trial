@@ -399,14 +399,72 @@ CSV/MD 文件包含：
 
 ═══════════════════════════════════
 
-📊 数据统计
-- 搜索关键词：20 个
+📝 Step 0: 关键词拆解分析
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+产品：窗帘
+目标市场：美国
+
+核心词：lace curtains, window treatment, drapery, sheer curtains
+替代词：voile, net curtains, panel curtains
+客户词：distributor, importer, wholesaler, brand owner, sourcing manager
+应用词：home decor, interior design, hospitality, hotel
+
+Google 搜索词：10 条
+Google Maps 搜索词：10 条
+LinkedIn 搜索词：10 条
+行业目录搜索词：10 条
+
+📝 Step 1: ICP 定义
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+目标客户画像：
+- 行业：home decor, textile, window treatment
+- 类型：brand owner, importer, distributor, wholesaler
+- 规模：10-500人
+- 市场：美国
+
+决策人画像：
+- 职位：Sourcing Manager, Procurement Manager, Import Manager
+- 级别：Manager, Director, VP
+
+📝 Step 2: 客户搜索结果
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+搜索关键词：40 条
+发现客户：25 个
+提取邮箱：18 个
+提取决策人：12 个
+
+📝 Step 3: 评分分级结果
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+评分维度：
+- 产品匹配度：25分
+- 客户类型匹配：20分
+- 采购意图：20分
+- 公司实力：15分
+- 市场匹配：10分
+- 联系有效性：10分
+
+分级结果：
+- ⭐ A类（80-100分）：5 个
+- ⭐ B类（60-79分）：8 个
+- ⭐ C类（40-59分）：12 个
+
+📝 Step 5: 开发信统计
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+生成开发信：5 封（中英文双语）
+使用 content-strategy 优化：是
+
+📊 整体数据统计
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- 搜索关键词：40 个
 - 发现客户：25 个
 - A类客户：5 个
+- B类客户：8 个
+- C类客户：12 个
 - 已发邮件：5 封
 - 成功率：100%
 
 📧 已发送邮件
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 | 客户 | 邮箱 | 状态 |
 |------|------|------|
 | Heritage Lace | marketing@heritagelace.net | ✓ |
@@ -414,15 +472,18 @@ CSV/MD 文件包含：
 | ... | ... | ✓ |
 
 ⏰ 已设置提醒
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 - 每日跟进检查：每天 12:30
 - 每周健康度检查：周一 13:00
 - 下次提醒：2026-04-07 12:30
 
 📁 数据存储（有飞书）：
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 - 线索表：[飞书链接]
 - 客户表：[飞书链接]
 
 📁 数据存储（无飞书）：
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 - 线索培育池 CSV：/root/.openclaw/workspace/output/线索培育池_xxx.csv
 - 线索培育池 MD：/root/.openclaw/workspace/output/线索培育池_xxx.md
 - 客户档案表 CSV：/root/.openclaw/workspace/output/客户档案表_xxx.csv
