@@ -13,7 +13,63 @@
 | API | 用途 | Key |
 |-----|------|-----|
 | **Serper** | 搜索客户 | `9bbea8dfb95f004a352b8ec20d3fff0426ac342f` |
-| **Resend** | 发送邮件 | `re_MWKHdXvF_6FRxbEPcgpRU1Xcr42TFCcHv` |
+| **Resend** | 发送邮件 | `re_DPtbKJ2y_HYfJ6ro6rCjqYjZesFRxC7pa` |
+
+---
+
+## ⚠️ 依赖技能（必须先安装）
+
+> 为保证产品自动化流程顺畅，开始前请确保已安装以下依赖技能：
+
+### 1️⃣ 自动化跟进
+
+**用途：** 自动跟进客户，设置定时提醒节奏
+
+**仓库：** https://github.com/Sharkala/cross-border-training/blob/main/Skill_Database/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%B7%9F%E8%BF%9B.md
+
+**安装命令：**
+```bash
+openclaw skills install github:Sharkala/cross-border-training
+```
+
+**功能：**
+- 24小时未回复 → 自动跟进一次
+- 3天未回复 → 换角度跟进
+- 7天未回复 → 发案例/新产品
+- 15天未回复 → 发轻提醒
+- 30天未回复 → 进入长期培育
+
+---
+
+### 2️⃣ Content Strategy
+
+**用途：** 内容策略 + 开发信撰写优化
+
+**仓库：** https://github.com/Sharkala/cross-border-training/tree/main/cross-border-skills/content-strategy
+
+**安装命令：**
+```bash
+openclaw skills install github:Sharkala/cross-border-training
+```
+
+**功能：**
+- 内容目标定义
+- 受众内容需求研究
+- 内容支柱构建
+- 分发渠道策略
+- 开发信优化
+
+---
+
+### 安装检查
+
+运行以下命令确认技能已安装：
+
+```bash
+openclaw skills list | grep -E "content-strategy|自动化"
+```
+
+如果没有输出，请先安装依赖技能。
 
 ---
 

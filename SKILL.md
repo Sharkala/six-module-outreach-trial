@@ -39,6 +39,46 @@ api_keys_required:
 
 ---
 
+## ⚠️ 依赖技能（开始前必装）
+
+> 为保证自动化流程顺畅，请确保已安装以下技能：
+
+### 📦 必需技能
+
+| 技能 | 用途 | 安装命令 |
+|------|------|----------|
+| **自动化跟进** | 定时跟进提醒节奏 | `openclaw skills install github:Sharkala/cross-border-training` |
+| **content-strategy** | 开发信撰写优化 | `openclaw skills install github:Sharkala/cross-border-training` |
+
+### 🔗 仓库地址
+
+- 自动化跟进：https://github.com/Sharkala/cross-border-training/blob/main/Skill_Database/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%B7%9F%E8%BF%9B.md
+- content-strategy：https://github.com/Sharkala/cross-border-training/tree/main/cross-border-skills/content-strategy
+
+### 📋 自动化跟进功能
+
+| 时间节点 | 动作 |
+|----------|------|
+| 24小时未回复 | 自动跟进一次 |
+| 3天未回复 | 换角度跟进 |
+| 7天未回复 | 发案例/新产品 |
+| 15天未回复 | 发轻提醒 |
+| 30天未回复 | 进入长期培育 |
+
+### 📝 content-strategy 功能
+
+- 内容目标定义
+- 受众内容需求研究
+- 内容支柱构建
+- 分发渠道策略
+- 开发信优化
+
+### ✅ 安装检查
+
+运行前我会自动检查这些技能是否已安装。如果缺失，我会告诉你如何安装。
+
+---
+
 ## 📋 全流程预览
 
 ```
